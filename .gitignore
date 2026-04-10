@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+.next/
+dist/
+out/
+build/
+
+# Environment files (NEVER commit these)
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Runtime
+.DS_Store
+Thumbs.db
+*.pem
+
+# Vercel
+.vercel
+
+# Prisma
+prisma/migrations/dev*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Testing
+coverage/
