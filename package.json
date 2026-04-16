@@ -16,7 +16,7 @@
     "react-dom": "18.2.0"
   },
   "scripts": {
-    "postinstall": "rm -rf apps/web/node_modules/react apps/web/node_modules/react-dom",
+    "postinstall": "rm -rf apps/web/node_modules/react",
     "dev:backend": "cd services/backend && npm run dev",
     "dev:mobile": "cd apps/mobile && npx expo start",
     "build:backend": "cd services/backend && npm run build",
